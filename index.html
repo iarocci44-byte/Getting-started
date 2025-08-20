@@ -4,18 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-    
-    <div class="container">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-    </div>
-    </div>
-</body>
-</html>
+    <section>
+        <nav>
+            <img src="./assets/FES.svg" class="logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+            <div>
+                <h1>Best place to learn frontend</h1>
+                <p class="subheader"></p>Go from being an absolute beginner to a pro with a simplified process</p>
+                <button>Start Now</button>
+            </div>
+            <figure>
+                <img src="./assets/laptop.png" alt="Home page image">
+            </figure>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="section_description">
+                <div class="section_description_wrapper">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eveniet.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem dolor quaerat facilis ullam deleniti commodi quam. Ex, recusandae fugiat?
+                </p>
+            <figure class="about_image_wrapper">
+                <img src="./assets/about.jpg" alt="">
+            </figure>
+                </div>
+            </div>
+        </section>
+        <section id="discord">
+            <h2>Join our Discord</h2>
+            <figure>
+                <img src="./assets/discord.png" alt="">
+            </figure>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eveniet.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur veniam deleniti dicta, quos quo nulla architecto, non doloremque, nisi ipsum? Non suscipit dolorem placeat ullam, error illo magnam eveniet.
+                </p>
+                <button>Join Now</button>
+            </div>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <input type="text" placeholder="Name" required>
+                    <span>Name</span>
+                    <input type="email" placeholder="Email" required>
+                    <span>Email</span>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Frontend Simplified</p>
+            <div>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </footer>
