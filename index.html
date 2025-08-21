@@ -21,7 +21,7 @@
             <div class="row">
             <div>
                 <h1>Best place to learn frontend</h1>
-                <p class="subheader"></p>Go from being an absolute beginner to a pro with a simplified process</p>
+                <p class="subheader">Go from being an absolute beginner to a pro with a simplified process</p>
                 <button>Start Now</button>
             </div>
             <figure>
@@ -34,51 +34,63 @@
     <main>
         <section id="about">
             <h2>About Us</h2>
+            <div class="row">
             <div class="section_description">
                 <div class="section_description_wrapper">
-                <p>
+                <p class="section_description_paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eveniet.
                 </p>
-                <p>
+                <p class="section_description_paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem dolor quaerat facilis ullam deleniti commodi quam. Ex, recusandae fugiat?
                 </p>
+            </div>
             <figure class="about_image_wrapper">
                 <img src="./assets/about.jpg" alt="">
             </figure>
-                </div>
+            </div>
             </div>
         </section>
         <section id="discord">
             <h2>Join our Discord</h2>
-            <figure>
+            <div class="row">
+            <div class="section_description">
+            <figure class="about_image_wrapper">
                 <img src="./assets/discord.png" alt="">
             </figure>
-            <div>
-                <p>
+            <div class="section_description_wrapper">
+                <p class="section_description_paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eveniet.
                 </p>
-                <p>
+                <p class="section_description_paragraph">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur veniam deleniti dicta, quos quo nulla architecto, non doloremque, nisi ipsum? Non suscipit dolorem placeat ullam, error illo magnam eveniet.
                 </p>
-                <button>Join Now</button>
+                </div>  
             </div>
+            </div>
+                <button>Join Now</button>
+        </section>
             <section id="contact">
                 <h2>Contact Us</h2>
                 <form action="">
-                    <input type="text" placeholder="Name" required>
                     <span>Name</span>
-                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="First Last" required>
                     <span>Email</span>
+                    <input type="email" placeholder="jane@email.com" required>
+                    <span>Message</span>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
                     <button type="submit">Send</button>
                 </form>
             </section>
         </main>
         <footer>
-            <p>&copy; 2024 Frontend Simplified</p>
-            <div>
-                <li><a href="#about">About</a></li>
-                <li><a href="#discord">Discord</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <img class="footer_logo" src="./assets/FES.svg" alt="">
+        
+            <div class="footer_links">
+                <ul>
+                    <li><a class="footer_link" href="#about">About</a></li>
+                    <li><a class="footer_link" href="#discord">Discord</a></li>
+                    <li><a class="footer_link" href="#contact">Contact</a></li>
+                </ul>
             </div>
+            <p>&copy; 2024 Frontend Simplified</p>
         </footer>
